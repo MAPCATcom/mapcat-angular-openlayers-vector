@@ -1,0 +1,66 @@
+{
+  "name": "mapcat-angular-openlayers-vector",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --progress",
+    "watch": "npm run build -- --watch",
+    "server": "webpack-dev-server --inline --progress --port 4200 --content-base src",
+    "start": "npm run server",
+    "lint": "tslint --project tslint.json \"src/**/*.ts\""
+  },
+  "author": "GLI Solutions Ltd.",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/animations": "~5.0.3",
+    "@angular/common": "~5.0.3",
+    "@angular/compiler": "~5.0.3",
+    "@angular/compiler-cli": "~5.0.3",
+    "@angular/core": "~5.0.3",
+    "@angular/forms": "~5.0.3",
+    "@angular/http": "~5.0.3",
+    "@angular/platform-browser": "~5.0.3",
+    "@angular/platform-browser-dynamic": "~5.0.3",
+    "@angular/platform-server": "~5.0.3",
+    "@angular/router": "~5.0.3",
+    "@angular/upgrade": "~5.0.3",
+    "@mapcat/mapview-init": "^0.0.4",
+    "@types/geojson": "<7946.0.0",
+    "angular-in-memory-web-api": "^0.5.1",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.5.1",
+    "ie-shim": "^0.1.0",
+    "lint": "^1.1.2",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.5.2",
+    "tslint": "^5.8.0",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.53",
+    "angular2-router-loader": "^0.3.5",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^3.4.0",
+    "css-loader": "^0.28.7",
+    "ol-mapbox-style": "^2.9.1",
+    "raw-loader": "^0.5.1",
+    "to-string-loader": "^1.1.5",
+    "typescript": "~2.4.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.5",
+    "webpack-merge": "^4.1.1"
+  },
+  "keywords": [
+    "MapCat",
+    "angular",
+    "angular5",
+    "OpenLayers",
+    "ol",
+    "osm",
+    "openstreetmap",
+    "sample"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAPCATcom/mapcat-angular-openlayers-vector.git"
+  }
+}
