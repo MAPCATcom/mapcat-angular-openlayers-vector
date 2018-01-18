@@ -17,13 +17,13 @@ export class HomeComponent implements OnInit {
 
   private getViewUrl(): Promise<string> {
     return new Promise((resolve, reject) => {
-      mapview.initVectorView('jM9oGlsfWxOOYYF0kvuq2UbYl3XrVuUzJmwfnB6M', {tileStyle: "openlayers"}, (error, response) => {
+      mapview.initVectorView((error, response) => {
         if (error) {
           reject(error);
         } else {
           resolve(response);
         }
-      });
+      }, 'jM9oGlsfWxOOYYF0kvuq2UbYl3XrVuUzJmwfnB6M', null, {tileStyle: "openlayers"});
     });
   };
   
