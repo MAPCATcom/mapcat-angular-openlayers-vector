@@ -23,7 +23,7 @@ export class HomeComponent implements OnInit {
         } else {
           resolve(response);
         }
-      }, 'jM9oGlsfWxOOYYF0kvuq2UbYl3XrVuUzJmwfnB6M', null, {tileStyle: "openlayers"});
+      }, 'jM9oGlsfWxOOYYF0kvuq2UbYl3XrVuUzJmwfnB6M', null, {styleSheet: "openlayers"});
     });
   };
   
